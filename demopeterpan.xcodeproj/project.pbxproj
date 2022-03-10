@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E4E853927D9DAE00013F9DA /* LeeWhiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4E853827D9DAE00013F9DA /* LeeWhiteViewController.swift */; };
+		9E4E853C27D9DE070013F9DA /* jf-openhuninn-1.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E4E853B27D9DE070013F9DA /* jf-openhuninn-1.1.ttf */; };
+		9EE30BF227D746A900C1C36E /* FristViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE30BF127D746A900C1C36E /* FristViewController.swift */; };
 		9EE466E527D62547009E9B1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE466E427D62547009E9B1E /* AppDelegate.swift */; };
 		9EE466E727D62547009E9B1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE466E627D62547009E9B1E /* SceneDelegate.swift */; };
-		9EE466E927D62547009E9B1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE466E827D62547009E9B1E /* ViewController.swift */; };
+		9EE466E927D62547009E9B1E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE466E827D62547009E9B1E /* MainViewController.swift */; };
 		9EE466EC27D62547009E9B1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE466EA27D62547009E9B1E /* Main.storyboard */; };
 		9EE466EE27D62547009E9B1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EE466ED27D62547009E9B1E /* Assets.xcassets */; };
 		9EE466F127D62547009E9B1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE466EF27D62547009E9B1E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E4E853827D9DAE00013F9DA /* LeeWhiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeWhiteViewController.swift; sourceTree = "<group>"; };
+		9E4E853B27D9DE070013F9DA /* jf-openhuninn-1.1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jf-openhuninn-1.1.ttf"; sourceTree = "<group>"; };
+		9EE30BF127D746A900C1C36E /* FristViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FristViewController.swift; sourceTree = "<group>"; };
 		9EE466E127D62547009E9B1E /* demopeterpan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demopeterpan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EE466E427D62547009E9B1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EE466E627D62547009E9B1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9EE466E827D62547009E9B1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9EE466E827D62547009E9B1E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9EE466EB27D62547009E9B1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9EE466ED27D62547009E9B1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EE466F027D62547009E9B1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,11 +64,14 @@
 			children = (
 				9EE466E427D62547009E9B1E /* AppDelegate.swift */,
 				9EE466E627D62547009E9B1E /* SceneDelegate.swift */,
-				9EE466E827D62547009E9B1E /* ViewController.swift */,
+				9EE466E827D62547009E9B1E /* MainViewController.swift */,
 				9EE466EA27D62547009E9B1E /* Main.storyboard */,
+				9EE30BF127D746A900C1C36E /* FristViewController.swift */,
+				9E4E853827D9DAE00013F9DA /* LeeWhiteViewController.swift */,
 				9EE466ED27D62547009E9B1E /* Assets.xcassets */,
 				9EE466EF27D62547009E9B1E /* LaunchScreen.storyboard */,
 				9EE466F227D62547009E9B1E /* Info.plist */,
+				9E4E853B27D9DE070013F9DA /* jf-openhuninn-1.1.ttf */,
 			);
 			path = demopeterpan;
 			sourceTree = "<group>";
@@ -126,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EE466F127D62547009E9B1E /* LaunchScreen.storyboard in Resources */,
+				9E4E853C27D9DE070013F9DA /* jf-openhuninn-1.1.ttf in Resources */,
 				9EE466EE27D62547009E9B1E /* Assets.xcassets in Resources */,
 				9EE466EC27D62547009E9B1E /* Main.storyboard in Resources */,
 			);
@@ -138,9 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EE466E927D62547009E9B1E /* ViewController.swift in Sources */,
+				9E4E853927D9DAE00013F9DA /* LeeWhiteViewController.swift in Sources */,
+				9EE466E927D62547009E9B1E /* MainViewController.swift in Sources */,
 				9EE466E527D62547009E9B1E /* AppDelegate.swift in Sources */,
 				9EE466E727D62547009E9B1E /* SceneDelegate.swift in Sources */,
+				9EE30BF227D746A900C1C36E /* FristViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
